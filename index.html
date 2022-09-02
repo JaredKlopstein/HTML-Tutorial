@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <section>
@@ -18,20 +18,20 @@
         </ul>
       </nav>
       <header>
-          <div class="row">
-        <div>
-                <h1>Best place to learn frontend</h1>
-                <p class="subheader">
-                    Go from being an absolute beginner to pro with a simplified plan
-                </p>
-                <button>Start Now</button>
-            </div>
-            <figure>
-                <img
-                src="./assets/HTML Practise Assets/laptop.png"
-                alt="Home Page Image"
-                />
-            </figure>
+        <div class="row">
+          <div>
+            <h1>Best place to learn frontend</h1>
+            <p class="subheader">
+              Go from being an absolute beginner to pro with a simplified plan
+            </p>
+            <button>Start Now</button>
+          </div>
+          <figure>
+            <img
+              src="./assets/HTML Practise Assets/laptop.png"
+              alt="Home Page Image"
+            />
+          </figure>
         </div>
       </header>
     </section>
@@ -39,73 +39,94 @@
     <main>
       <section id="about">
         <h2>About</h2>
-        <div class="section__description">
+        <div class="row">
+          <div class="section__description">
             <div class="section__description--wrapper">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-                    consequatur eius quisquam similique blanditiis maiores veniam
-                    perspiciatis possimus, iusto aut voluptatem odio, earum ipsam
-                    dolorem est iure culpa quas ex.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-                    consequatur eius quisquam similique blanditiis maiores veniam
-                    perspiciatis possimus, iusto aut voluptatem odio, earum ipsam
-                    dolorem est iure culpa quas ex.
-                </p>
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur consequatur eius quisquam similique blanditiis maiores
+                veniam perspiciatis possimus, iusto aut voluptatem odio, earum
+                ipsam dolorem est iure culpa quas ex.
+              </p>
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur consequatur eius quisquam similique blanditiis maiores
+                veniam perspiciatis possimus, iusto aut voluptatem odio, earum
+                ipsam dolorem est iure culpa quas ex.
+              </p>
             </div>
-            <figure class="about__img--wrapper" >
-                <img
+            <figure class="about__img--wrapper">
+              <img
                 src="./assets/HTML Practise Assets/about.jpg"
                 alt="about Page Image"
-                />
+              />
             </figure>
+          </div>
         </div>
-        </section>
+      </section>
+
       <section id="discord">
         <h2>Discord</h2>
-        <figure>
-          <img
-            src="./assets/HTML Practise Assets/discord.png"
-            alt="discord Page Image"
-          />
-        </figure>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-            consequatur eius quisquam similique blanditiis maiores veniam
-            perspiciatis possimus, iusto aut voluptatem odio, earum ipsam
-            dolorem est iure culpa quas ex.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-            consequatur eius quisquam similique blanditiis maiores veniam
-            perspiciatis possimus, iusto aut voluptatem odio, earum ipsam
-            dolorem est iure culpa quas ex.
-          </p>
+        <div class="row">
+          <div class="section__description">
+            <figure class="about__img--wrapper">
+              <img
+                src="./assets/HTML Practise Assets/discord.png"
+                alt="discord Page Image"
+              />
+            </figure>
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur consequatur eius quisquam similique blanditiis maiores
+                veniam perspiciatis possimus, iusto aut voluptatem odio, earum
+                ipsam dolorem est iure culpa quas ex.
+              </p>
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur consequatur eius quisquam similique blanditiis maiores
+                veniam perspiciatis possimus, iusto aut voluptatem odio, earum
+                ipsam dolorem est iure culpa quas ex.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
       <section id="contact">
         <h2>Contact</h2>
         <form action="">
-            <label for="email">email</label>
-            <input type="text" name="email" id="" placeholder="jane@example.com">
-            <label for="message">message</label>
-            <textarea name="message" id="message" cols="30" rows="10"></textarea>
-            <button>Submit</button>
+          <label for="email">email</label>
+          <input
+            type="text"
+            name="email"
+            id=""
+            placeholder="jane@example.com"
+          />
+          <label for="message">message</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Nice Website!"
+          ></textarea>
+          <button>Contact Us!</button>
         </form>
       </section>
     </main>
     <footer>
-        <img src="./assets/HTML Practise Assets/FES.svg" alt="FES logo">
-        <div>
-            <a href="#about">About</a>
-            <a href="#discord">Discord</a>
-            <a href="#contact">Contact</a>
-            <a href="#">Courses</a>
-        </div>
-        <p>Copyright Frontend Simplified</p>
+      <img
+        class="footer__logo"
+        src="./assets/HTML Practise Assets/FES.svg"
+        alt="FES logo"
+      />
+      <div class="footer__link">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="#contact">Contact</a>
+        <a href="#">Courses</a>
+      </div>
+      <p class="footer__copyright">Copyright Frontend Simplified</p>
     </footer>
-
   </body>
 </html>

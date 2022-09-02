@@ -70,12 +70,23 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
+
+#about ,
+#discord ,
+#contact ,
+footer {
+    padding: 48px 0;
+}
+
 
 /* ABOUT SECTION */
 
+
+
 #about {
-    padding: 48px 0;
+    background-color: #f8ffdc;
 }
 
 h2 { 
@@ -102,3 +113,64 @@ img {
 .section__description--wrapper {
     width: 60%;
 }
+
+.section__description--para {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.about__img--wrapper, .section__description--wrapper {
+    padding: 0 24px;
+}
+
+/* DISCORD SECTION */
+
+#discord {
+    background-color: #cefeff;
+}
+
+
+/* Contact SECTION */
+
+#contact {
+    background-color: #dce9ff;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+input, textarea {
+    margin-bottom: 12px;
+    font-size: 16px;
+    padding: 12px;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer__logo {
+    max-width: 240px;
+    margin-bottom: 20px;
+}
+
+.footer__links {
+    margin-bottom: 15px;
+}
+
+.footer__link {
+    padding: 12px;
+}
+
